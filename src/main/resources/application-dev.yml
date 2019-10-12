@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8
+    username: root
+    password: 773835
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#server:
+#  servlet:
+#    context-path: /sell
+
+#logging:
+#  pattern:
+#    console: "%d - $msg%n"
