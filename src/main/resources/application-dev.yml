@@ -8,10 +8,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-#server:
-#  servlet:
-#    context-path: /sell
 
 #logging:
 #  pattern:
+server:
+  servlet:
+    context-path: /sell
 #    console: "%d - $msg%n"
